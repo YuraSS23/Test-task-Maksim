@@ -3,6 +3,7 @@ import img from "../../assets/images/kisspng-graduation-ceremony-college-academi
 import {Content} from "./Content";
 import "./MainPage.css"
 import photofont from "../../assets/images/Photofont.svg"
+import petals from "../../assets/images/petals.svg"
 
 
 export const MainPage = () => {
@@ -15,5 +16,7 @@ export const MainPage = () => {
             <div className={"halfCross"}></div>
             <div className={"halfCross2"}></div>
         </div>
+        <img className={"petalsTop"} src={petals}/>
+        <img className={"petalsBot"} src={petals}/>
     </div>
 };

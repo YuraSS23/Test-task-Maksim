@@ -52,6 +52,21 @@
     position: relative;
 }
 
+.petalsBot {
+    z-index: 1;
+    position: absolute;
+    bottom: 117px;
+    left: 1006px;
+}
+
+.petalsTop {
+    rotate: 180deg;
+    top: 122px;
+    right: 385px;
+    z-index: 1;
+    position: absolute;
+}
+
 @media (max-width: 770px) {
     .mainimg,
     .rectangle,
