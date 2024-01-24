@@ -5,23 +5,74 @@ h1 {
     font-weight: 700;
     line-height: 120%;
 }
+h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 0 0 20px;
+}
+
+.yellow {
+    color: #FFDE00;
+}
 
 .maincontent {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
 }
 
 
-.textAndCircles {
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.circle1 {
+    height: 62px;
+    width: 62px;
+    background-color: #FF885E;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+
+}
+.circle2 {
+    height: 72px;
+    width: 72px;
+    border: 1px solid #FF885E;
+    top: -66px;
+    left: -5px;
+}
+.circle3 {
+    height: 88px;
+    width: 88px;
+    border: 1px solid #FF885E;
+    top: -145px;
+    left: -13px;
 }
 
-.images {
-    width: 50px;
-    height: 50px;
+.circlegroup {
+    position: relative;
+    border-radius: 100%;
+    animation-name: stretch;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(.5);
+    }
+
+    50% {
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .profits {

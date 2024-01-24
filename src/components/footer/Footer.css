@@ -1,6 +1,15 @@
 footer {
-    padding: 40px 0;
+    position: absolute;
+    bottom: 0;
+    height: 25vh;
+    width: 100%;
 }
 img {
     max-width: 100%;
+}
+.footerimg {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/images/Vector 23.svg");
 }

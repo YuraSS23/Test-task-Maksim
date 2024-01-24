@@ -4,6 +4,7 @@ import footerImg from "../../assets/images/Vector 23.svg"
 
 export const Footer = () => {
     return <footer>
-        <img src={footerImg}/>
+        <div className={"footerimg"}></div>
+  {/*      <img src={footerImg}/>*/}
     </footer>
 };

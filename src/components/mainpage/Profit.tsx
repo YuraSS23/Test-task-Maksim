@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Profit.css"
 
 type ProfitPropsType = {
     bigSpanText: string
@@ -7,7 +8,7 @@ type ProfitPropsType = {
 
 export const Profit: React.FC<ProfitPropsType> = ({bigSpanText, smallSpanTexts}) => {
     return <div>
-        <span>{bigSpanText}</span>
-        {smallSpanTexts.map(text => <span>{text}</span>)}
+        <p className={"bigText"}>{bigSpanText}</p>
+        {smallSpanTexts.map(text => <p className={"smallText"}>{text}</p>)}
     </div>
 }
