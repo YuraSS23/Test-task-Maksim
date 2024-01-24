@@ -1,3 +1,8 @@
+.profit {
+    border-left: 3px solid #FF885E;
+    margin: 0 0 26px;
+}
+
 .bigText {
     color: #C9C3F3;
     font-size: 24px;

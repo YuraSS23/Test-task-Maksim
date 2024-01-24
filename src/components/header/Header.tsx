@@ -7,6 +7,7 @@ import {Logo} from "./Logo";
 export const Header = () => {
     return <header>
         <Logo />
+        <Button text={"Вход в кабинет"} classname={"adaptiveEntryBtn"}></Button>
         <HeaderItem upperText={"Прием заявок"} lowerText={"до 11"}/>
         <HeaderItem upperText={"Получение заданий"} lowerText={"4"}/>
         <HeaderItem upperText={"Внесение ответов"} lowerText={"до 18"}/>

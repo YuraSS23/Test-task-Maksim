@@ -18,6 +18,17 @@
     background: #FFDE00
 }
 
+.adaptiveEntryBtn {
+    display: none;
+    font-size: 14px;
+    line-height: 123%;
+    background: white;
+    letter-spacing: 0.14px;
+}
+.adaptiveEntryBtn:hover {
+    background: #FFDE00
+}
+
 .applyBtn {
     font-size: 16px;
     line-height: 130%;
@@ -30,4 +41,37 @@
 }
 .applyBtn:hover {
     box-shadow: none;
+}
+
+.adaptiveApplyBtn {
+    display: none;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.16px;
+    width: 266px;
+    height: 60px;
+    border-radius: 4px;
+    background: #FFDE00;
+    box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.25) inset, 0px 0px 30px 0px rgba(255, 222, 0, 0.35);
+}
+.adaptiveApplyBtn:hover {
+    box-shadow: none;
+}
+
+@media (max-width: 770px) {
+    .entryBtn {
+        display: none;
+    }
+    .adaptiveEntryBtn {
+        display: block;
+        height: 40px;
+    }
+    .applyBtn {
+        display: none;
+    }
+    .adaptiveApplyBtn {
+        display: block;
+        height: 40px;
+        margin: 0 auto
+    }
 }

@@ -2,3 +2,61 @@
     display: flex;
     gap: 111px;
 }
+
+.rectangle {
+    position: absolute;
+    left: 236px;
+    top: 133px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    border: 5px solid #F8D008;
+    opacity: 0.4;
+}
+
+.cross {
+    position: absolute;
+    bottom: 184px;
+    left: 146px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.4;
+}
+
+.halfCross {
+    position: absolute;
+    width: 8.125px;
+    height: 34.089px;
+    transform: rotate(45deg);
+    background-color: #6845AE;
+
+}
+
+.halfCross2 {
+    position: absolute;
+    width: 8.125px;
+    height: 34.089px;
+    transform: rotate(-45deg);
+    background-color: #6845AE;
+}
+
+.photofont {
+    position: absolute;
+    top: 158px;
+    right: 167px;
+    z-index: 0;
+}
+
+.mainimg {
+    z-index: 1;
+    position: relative;
+}
+
+@media (max-width: 770px) {
+    .mainimg,
+    .rectangle,
+    .photofont,
+    .cross {
+        display: none;
+    }
+}
