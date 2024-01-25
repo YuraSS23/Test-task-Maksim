@@ -1,22 +1,23 @@
 .content {
+    box-sizing: content-box;
     position: relative;
     z-index: 5;
 }
 
-
 h1 {
-    margin: 0 79px 64px 0;
+    margin: 0 70px 64px 0;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
 }
+
 h3 {
+    padding-left: 9px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    padding: 0 0 20px;
 }
 
 .yellow {
@@ -27,10 +28,15 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(2, 50%);
+    grid-row-gap: 24px;
+    grid-column-gap: 51px;
 }
 
 
 .circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 62px;
     width: 62px;
     background-color: #FF885E;
@@ -39,26 +45,36 @@ h3 {
     font-weight: 700;
     line-height: 120%;
     text-align: center;
-
+    top: 20px;
+    left: 13px;
 }
 .circle2 {
     height: 72px;
     width: 72px;
     border: 1px solid #FF885E;
-    top: -66px;
-    left: -5px;
+    top: -46px;
+    left: 8px;
 }
 .circle3 {
     height: 88px;
     width: 88px;
     border: 1px solid #FF885E;
-    top: -145px;
-    left: -13px;
+    top: -125px;
+    left: 0px;
+}
+.rub {
+    top: -184px;
+    left: 60px;
 }
 
 .circlegroup {
     position: relative;
     border-radius: 100%;
+
+}
+
+.circleBox {
+    position: absolute;
     animation-name: stretch;
     animation-duration: 500ms;
     animation-timing-function: ease-out;
@@ -69,7 +85,7 @@ h3 {
 
 @keyframes stretch {
     0% {
-        transform: scale(.5);
+        transform: scale(.8);
     }
 
     50% {
@@ -79,9 +95,6 @@ h3 {
     100% {
         transform: scale(1);
     }
-}
-
-.profits {
 }
 
 @media (max-width: 770px) {
@@ -94,16 +107,15 @@ h3 {
         text-align: center;
     }
     .org {
-        padding-left: 9px;
         font-size: 24px;
         font-weight: 700;
     }
     h3 {
-        padding: 0;
         font-size: 20px;
         font-weight: 650;
     }
     .maincontent {
+        grid-row-gap: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -129,8 +141,12 @@ h3 {
     }
     .circle3 {
         top:0;
-        bottom:0px;
+        bottom:0;
         left: 0;
-        right: 0px;
+        right: 0;
+    }
+    .rub {
+        top: -56px;
+        left: 60px;
     }
 }

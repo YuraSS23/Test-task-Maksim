@@ -1,8 +1,9 @@
 header {
-    padding: 19px 0 114px;
+    padding: 19px 0 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 700;
 }
 .dim {
     color: #C9C3F3;

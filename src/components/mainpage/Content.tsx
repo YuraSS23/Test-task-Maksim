@@ -2,6 +2,7 @@ import React from 'react';
 import {Button} from "../common/Button";
 import {Profit} from "./Profit";
 import "./Content.css"
+import rub from "../../assets/images/RUB.svg"
 
 export const Content = () => {
     return <div className={"content"}>
@@ -10,9 +11,10 @@ export const Content = () => {
             <div className={"textAndCircles"}>
                 <h3 className={"org"}>Низкий оргвзнос</h3>
                 <div className={"circleBox"}>
-                    <div className={"circlegroup"+" "+"circle1"}>30₽</div>
+                    <div className={"circlegroup"+" "+"circle1"}>30</div>
                     <div className={"circlegroup"+" "+"circle2"}></div>
                     <div className={"circlegroup"+" "+"circle3"}></div>
+                    <img className={"circlegroup"+ " "+"rub"} height="28px" width="36px" src={rub}/>
                 </div>
             </div>
             <Button text={"Подать заявку на участие"} classname={"adaptiveApplyBtn"}/>

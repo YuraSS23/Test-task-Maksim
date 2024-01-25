@@ -17,7 +17,7 @@
 
 .cross {
     position: absolute;
-    bottom: 260px;
+    bottom: 170px;
     left: 146px;
     width: 30px;
     height: 30px;
@@ -56,20 +56,20 @@
 .petalsBot {
     z-index: 1;
     position: absolute;
-    bottom: 180px;
+    bottom: 130px;
     right: 867px;
 }
 
 .petalsTop {
     rotate: 180deg;
-    right: 385px;
+    right: 400px;
     top: 122px;
     z-index: 1;
     position: absolute;
 }
 .points {
     position: absolute;
-    top: 120px
+    top: 101px
 }
 
 
