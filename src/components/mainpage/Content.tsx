@@ -2,11 +2,9 @@ import React from 'react';
 import {Button} from "../common/Button";
 import {Profit} from "./Profit";
 import "./Content.css"
-import points from "../../assets/images/points.svg"
 
 export const Content = () => {
-    return <div>
-        <img className={"points"} src={points}/>
+    return <div className={"content"}>
         <h1>Тестовое задание для <span className={"yellow"}>самого лучшего</span> верстальщика</h1>
         <div className={"maincontent"}>
             <div className={"textAndCircles"}>

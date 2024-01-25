@@ -1,3 +1,9 @@
+.content {
+    position: relative;
+    z-index: 5;
+}
+
+
 h1 {
     margin: 0 79px 64px 0;
     font-size: 48px;
@@ -77,10 +83,6 @@ h3 {
 
 .profits {
 }
-.points {
-    top: 120px;
-    position: absolute;
-}
 
 @media (max-width: 770px) {
     h1 {
@@ -102,8 +104,5 @@ h3 {
     }
     .circlegroup {
 
-    }
-    .points {
-        display: none;
     }
 }
