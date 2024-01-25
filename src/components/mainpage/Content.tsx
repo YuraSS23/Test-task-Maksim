@@ -8,8 +8,8 @@ export const Content = () => {
         <h1>Тестовое задание для <span className={"yellow"}>самого лучшего</span> верстальщика</h1>
         <div className={"maincontent"}>
             <div className={"textAndCircles"}>
-                <h3>Низкий оргвзнос</h3>
-                <div>
+                <h3 className={"org"}>Низкий оргвзнос</h3>
+                <div className={"circleBox"}>
                     <div className={"circlegroup"+" "+"circle1"}>30₽</div>
                     <div className={"circlegroup"+" "+"circle2"}></div>
                     <div className={"circlegroup"+" "+"circle3"}></div>

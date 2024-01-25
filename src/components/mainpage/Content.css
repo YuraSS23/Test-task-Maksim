@@ -86,23 +86,51 @@ h3 {
 
 @media (max-width: 770px) {
     h1 {
-        margin: 0 0 20px;
-        padding: 0 50px;
+        margin: 0 42px 12px;
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
+        text-align: center;
+    }
+    .org {
+        padding-left: 9px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    h3 {
+        padding: 0;
+        font-size: 20px;
+        font-weight: 650;
     }
     .maincontent {
-        display: grid;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(4, 25%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .textAndCircles {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        height: 96px;
     }
-    .circlegroup {
-
+    .circleBox {
+        position: relative;
+    }
+    .circle1 {
+        position: absolute;
+        left: 13px;
+        top: 13px
+    }
+    .circle2 {
+        position: absolute;
+        left: 8px;
+        top: 8px
+    }
+    .circle3 {
+        top:0;
+        bottom:0px;
+        left: 0;
+        right: 0px;
     }
 }
