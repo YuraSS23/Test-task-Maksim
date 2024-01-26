@@ -1,7 +1,8 @@
 .App {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background: linear-gradient(90deg, #8159C6 0%, #6C7CFF 100%);
+  position: relative;
 }
 
 .container {
@@ -15,5 +16,11 @@
 @media (max-width: 770px) {
   .container {
     padding: 0 8px;
+  }
+}
+
+@media (max-width: 350px) {
+  footer {
+    display: none;
   }
 }
