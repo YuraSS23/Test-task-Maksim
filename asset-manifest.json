@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Test-task-Maksim/static/css/main.200527d1.css",
+    "main.js": "/Test-task-Maksim/static/js/main.8000e435.js",
+    "static/js/787.4785e9bf.chunk.js": "/Test-task-Maksim/static/js/787.4785e9bf.chunk.js",
+    "static/media/kisspng-graduation-ceremony-college-academic-degree-gradua-university-graduation-5ac8107bbd0874 1.svg": "/Test-task-Maksim/static/media/kisspng-graduation-ceremony-college-academic-degree-gradua-university-graduation-5ac8107bbd0874 1.1147c135183111db467bb82df65a1ae2.svg",
+    "static/media/Photofont.svg": "/Test-task-Maksim/static/media/Photofont.64c8060eb78e241beb12b0c93af7458d.svg",
+    "static/media/points.svg": "/Test-task-Maksim/static/media/points.7a38fd77814b55398fd83024c9896137.svg",
+    "static/media/surface1.svg": "/Test-task-Maksim/static/media/surface1.e88ca5f85231dd7328fbfa40a89b37a6.svg",
+    "static/media/RUB.svg": "/Test-task-Maksim/static/media/RUB.bf2f443eab25dfb8f29ec15a460fd560.svg",
+    "index.html": "/Test-task-Maksim/index.html",
+    "static/media/Vector.svg": "/Test-task-Maksim/static/media/Vector.321f0c00963fd4993b25.svg",
+    "static/media/petals.svg": "/Test-task-Maksim/static/media/petals.337da8e38fafe697ad390cd8703bc1c9.svg",
+    "main.200527d1.css.map": "/Test-task-Maksim/static/css/main.200527d1.css.map",
+    "main.8000e435.js.map": "/Test-task-Maksim/static/js/main.8000e435.js.map",
+    "787.4785e9bf.chunk.js.map": "/Test-task-Maksim/static/js/787.4785e9bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.200527d1.css",
+    "static/js/main.8000e435.js"
+  ]
+}
