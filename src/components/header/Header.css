@@ -29,3 +29,21 @@ header {
         line-height: 120%;
     }
 }
+@media (max-width: 770px) {
+    header {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 13px 0 20px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+}
+@media (max-width: 360px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}

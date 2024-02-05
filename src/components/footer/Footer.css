@@ -14,7 +14,7 @@ footer {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
     footer {
         display: none;
     }

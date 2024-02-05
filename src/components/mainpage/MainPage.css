@@ -94,3 +94,8 @@
         right: 0;
     }
 }
+@media (max-width: 1140px) {
+    .mainimg {
+        overflow-x: hidden;
+    }
+}
