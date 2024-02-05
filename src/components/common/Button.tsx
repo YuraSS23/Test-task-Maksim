@@ -7,5 +7,5 @@ type ButtonPropsType = {
 }
 
 export const Button:React.FC<ButtonPropsType> = ({text, classname}) => {
-    return <button className={"button"+" "+classname} >{text}</button>
+    return <button className={`button ${classname}`} >{text}</button>
 };
